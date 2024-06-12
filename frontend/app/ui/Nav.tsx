@@ -13,10 +13,12 @@ export default function Nav() {
                 <Image src="/jumia-logo.png" width={70} height={20} alt="Jumia Logo" />
             </div>
             <div className="flex items-center justify-between bg-white h-20 md:px-72 w-full">
-                <Image src="/jumia-logo.png" width={150} height={100} alt="Jumia Logo" />
+                <div className="w-1/6 ">
+                    <Image src="/jumia-logo.png" width={150} height={100} alt="Jumia Logo" />
+                </div>
 
-                <div className="flex flex-row items-center gap-5">
-                    <input type="text" placeholder="Search products, brands and categories" className="rounded border-2 p-2 w-full"/>
+                <div className="flex flex-row items-center gap-5 w-4/6">
+                    <input type="text" placeholder="Search products, brands and categories" className="rounded border-2 py-2 w-3/4 text-sm pl-8"/>
                     <button className="bg-primary shadow-lg px-5 py-2 rounded text-white text-sm">SEARCH</button>
                 </div>
 
